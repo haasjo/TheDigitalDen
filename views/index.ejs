@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+    <link rel='stylesheet' href='/stylesheets/uikit.min.css' />
+</head>
+
+<body>
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">
+                        <%= title %>
+                    </a>
+                    <div class="uk-navbar-item">
+                        <div>Some <a
+                                href="https://www.youtube.com/watch?v=BsIa_LKojJI&pp=ygUTeW91J3ZlIGJlZW4gdHJvbGxlZA%3D%3D">Link</a>
+                        </div>
+                    </div>
+                    <p class="uk-text-lead uk-text-bold uk-text-capitalize uk-text-right uk-text-default">Amount of
+                        things added to cart
+                        <span id="display">0</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-padding-small">
+        <div class="uk-text-center uk-grid-match" uk-grid>
+            <div class="uk-width-1-4@s">
+                <div class="uk-position-relative" uk-slideshow="animation: fade">
+
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="/img/pc.jpg" uk-cover>
+                        </li>
+                        <li>
+                            <img src="/img/pc white.jpg" uk-cover>
+                        </li>
+                        <li>
+                            <img src="/img/pc black green.jpg" uk-cover>
+                        </li>
+                    </ul>
+
+                    <div class="uk-position-bottom-center uk-position-small">
+                        <ul class="uk-thumbnav">
+                            <li uk-slideshow-item="0"><a href="#"><img src="/img/pc.jpg" width="100" height="67"></a>
+                            </li>
+                            <li uk-slideshow-item="1"><a href="#"><img src="/img/pc white.jpg" width="100"
+                                        height="67"></a>
+                            </li>
+                            <li uk-slideshow-item="2"><a href="#"><img src="/img/pc black green.jpg" width="100"
+                                        height="67"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-width-1-4@s">
+                <div class="uk-card uk-card-default uk-text-left uk-text-bold uk-text-large uk-padding-small">
+                    <div class="uk-text-emphasis uk-text-default">
+                        <p>Price: 16999kr
+                        </p>
+                        </p> Specs: GeForce RTX 3060 Ti, Ryzen 5 5600X, 16GB, 1TB SSD, Windows 11 </p>
+                        <p> Variations: Black Case with Rainbow Fans, Black Case with Green Fans, White Case with
+                            Purple
+                            Fans </p>
+                    </div>
+                    <button class="uk-button uk-button-default" onclick="popUp(); UIkit.notification({message:'Added to cart', timeout: 1500})">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p><%= foo[0].name %></p>
+
+    <script src="/js/script.js"></script>
+    <script src="/js/uikit.min.js"></script>
+</body>
+
 </html>
