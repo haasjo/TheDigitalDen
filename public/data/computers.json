@@ -1,10 +1,74 @@
 [
     {
-        "name": "name1",
-        "description": "foo"
+        "name": "a120 Epic Gaming PC",
+        "description": "Radeon RX 6600, Ryzen 5 5600, 16GB, 1TB, Windows 11",
+        "price": "13999,-",
+        "img": "/img/red pc4.jpg",
+        "img2": "/img/blue pc6.jpg",
+        "img3": "/img/orange pc4.jpg"
     },
+    
     {
-        "name": "name2",
-        "description": "foo2"
+        "name": "a130 Epic Gaming PC",
+        "description": "Radeon RX 6650XT, Ryzen 5 5600, 16GB, 1TB, Windows 11",
+        "price": "15499,-",
+        "img": "/img/purple pc2.jpg",
+        "img2": "/img/orange pc4.jpg",
+        "img3": "/img/pc.jpg"
+    },
+
+    {
+        "name": "a140 Epic Gaming PC - RTX 3060 Ti Edition",
+        "description": "GeForce RTX 3060 Ti, Ryzen 5 5600X, 16GB, 1TB SSD, Windows 11",
+        "price": "16000,-",
+        "img": "/img/pc.jpg",
+        "img2": "/img/pc white.jpg",
+        "img3": "/img/pc black green.jpg"
+    },
+   
+    {
+        "name": "a150 Epic Gaming PC",
+        "description": "GeForce RTX 3060Ti, Ryzen 5 7600X, 16GB DDR5, 1TB SSD, Windows 11",
+        "price": "19999,-",
+        "img": "/img/red pc1.jpg",
+        "img2": "/img/yellow pc1.png",
+        "img3": "/img/purple pc5.jpg"    
+    },
+
+    {
+        "name": "a160 Epic Gaming PC",
+        "description": "GeForce RTX 3070, Ryzen 5 7600X, 16GB DDR5, 2TB SSD, Windows 11",
+        "price": "21999,-",
+        "img": "/img/red pc1.jpg",
+        "img2": "/img/pink pc1.jpg",
+        "img3": "/img/yellow pc1.png"    
+    },
+   
+    {
+        "name": "a170 Epic Gaming PC",
+        "description": "GeForce RTX 3070, Ryzen 7 5700X, 16GB, 2TB SSD, Windows 11",
+        "price": "20999,-",
+        "img": "/img/purple pc2.jpg",
+        "img2": "/img/blue pc2.jpg",
+        "img3": "/img/red pc2.jpg"    
+    },
+   
+    {
+        "name": "a180 Epic Gaming PC",
+        "description": "Radeon RX 6750XT, Ryzen 7 7700X, 16GB DDR5, 2TB SSD, Windows 11",
+        "price": "21999,-",
+        "img": "/img/orange pc3.jpg",
+        "img2": "/img/pc.jpg",
+        "img3": "/img/pc black green.jpg"    
+    },
+   
+    {
+        "name": "a190 Epic Gaming PC",
+        "description": "Geforce RTX 4070Ti, Ryzen 7 7700, 32GB DDR5, 2TB SSD, Windows 11",
+        "price": "28999,-",
+        "img": "/img/red pc4.jpg",
+        "img2": "/img/orange pc4.jpg",
+        "img3": "/img/green pc4.jpg"    
     }
+   
 ]
