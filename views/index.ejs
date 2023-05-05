@@ -26,9 +26,13 @@
             </div>
         </div>
     </nav>
+   
 
-    <div class="uk-padding-small">
-        <div class="uk-text-center uk-grid-match uk-padding-large" uk-grid>
+    
+    <div class="uk-card-default uk-card-body uk-text-center uk-text-bold " uk-sticky="position: bottom" > <p>  </p>  </div>
+
+    <div class="uk-padding-large">
+        <div class="uk-text-center uk-grid-match uk-margin-xlarge" uk-grid>
             <% for(computer of foo) {%>
                 <div class="uk-width-1-4@s">
                     <div class="uk-position-relative" uk-slideshow="animation: fade">
@@ -46,7 +50,7 @@
 
                         </ul>
 
-                        <div class="uk-position-bottom-center uk-position-small ">
+                        <div class="uk-position-bottom-center uk-position-small uk-grid uk-width-1-4@s">
                             <ul class="uk-thumbnav">
                                 <li uk-slideshow-item="0"><a><img src="<%=computer.img %>" width="100" height="67"></a>
                                 <li uk-slideshow-item="1"><a><img src="<%=computer.img2 %>" width="100" height="67"></a>
@@ -57,25 +61,25 @@
                 </div>
 
                 <div class="uk-width-1-4@s">
-                    <div class="uk-card uk-card-default uk-text-left uk-text-bold uk-text-large uk-padding-small">
+                    <div class="uk-card uk-card-default uk-text-left uk-text-bold uk-text-large uk-padding-small ">
                         <div class="uk-text-emphasis uk-text-default uk-heading-divider">
-                           <h3 class="uk-text-bold uk-heading-divider"> 
+                           <h3 class="uk-text-bold uk-card-header"> 
                             <p>
                                 <%= computer.name %>
                             </h3>     
                                 <p>
                                                                
-                                        <p>
+                                        <p class="uk-text-normal">
                                         <%= computer.description %>
                                             <p>
-                                            <p>
+                                            <p class="uk-text-bold">
                                                 <%= computer.price %>
                                                     <p>
                         
                         
                                                         </div>
                         
-                        <button class="uk-button uk-button-default"
+                        <button class="uk-button uk-button-default "
                             onclick="popUp(); UIkit.notification({message:'Added to cart', timeout: 1500})">Buy</button>
                     </div>
                 </div>
