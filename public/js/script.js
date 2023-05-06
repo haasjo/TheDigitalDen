@@ -3,4 +3,3 @@ function popUp() {
     foo = parseInt(counter) + 1
     document.getElementById("display").innerHTML = foo
 }
-

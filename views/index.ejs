@@ -5,7 +5,6 @@
     <title>
         <%= title %>
     </title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel='stylesheet' href='/stylesheets/uikit.min.css' />
 </head>
 
@@ -32,7 +31,7 @@
 
     <div class="uk-padding-large">
         <div class="uk-text-center uk-grid-match uk-margin-xlarge" uk-grid>
-            <% for(computer of foo) {%>
+            <% for(computer of computerList) {%>
                 <div class="uk-width-1-4@s">
                     <div class="uk-position-relative" uk-slideshow="animation: fade">
                         <ul class="uk-slideshow-items">
@@ -60,9 +59,7 @@
                     <div class="uk-card uk-card-default uk-text-left uk-text-bold uk-text-large uk-padding-small ">
                         <div class="uk-text-emphasis uk-text-default uk-heading-divider">
                             <h3 class="uk-text-bold uk-card-header">
-                                <p>
-                                    <%= computer.name %>
-                                </p>
+                                <%= computer.name %>
                             </h3>
                             <p class="uk-text-normal">
                                 <%= computer.description %>

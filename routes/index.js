@@ -1,10 +1,11 @@
-var express = require('express');
-var router = express.Router();
-var computerList = require('../public/data/computers.json')
+import { Router } from 'express';
+import computerList from '../public/data/computers.json' assert { type: "json" };;
+
+var router = Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('index', { title: 'TheDigitalDen', foo: computerList });
+    res.render('index', { title: 'TheDigitalDen', computerList: computerList });
 });
 
-module.exports = router;
+export default router;

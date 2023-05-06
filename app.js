@@ -1,12 +1,15 @@
-const express = require('express');
-const indexRouter = require('./routes/index');
-const cookieParser = require('cookie-parser');
-const path = require('path');
-const logger = require('morgan');
+import express from 'express';
+import indexRouter from './routes/index.js';
+import cookieParser from 'cookie-parser';
+import path from 'path';
+import logger from 'morgan';
+import { fileURLToPath } from 'url';
 
 const app = express();
 const port = 3000;
 const host = "0.0.0.0";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
