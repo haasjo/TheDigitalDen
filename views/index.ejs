@@ -16,10 +16,17 @@
                     <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">
                         <%= title %>
                     </a>
-                    <p class="uk-text-lead uk-text-bold uk-text-capitalize uk-text-right uk-text-default ">Amount of
-                        things added to cart
-                        <span id="display">0</span>
-                    </p>
+                </div>
+
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li><a class="uk-text-lead uk-text-bold uk-text-capitalize uk-text-right uk-text-default">
+                                Amount of
+                                things added to cart
+                                <span id="cart">0</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -69,7 +76,7 @@
                             </p>
                         </div>
                         <button class="uk-button uk-button-default"
-                            onclick="popUp(); UIkit.notification({message:'Added to cart', timeout: 1500})">Buy</button>
+                            onclick="addToCart(); UIkit.notification({message:'Added to cart', timeout: 1500})">Buy</button>
                     </div>
                 </div>
                 <%}%>
