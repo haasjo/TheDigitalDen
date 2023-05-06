@@ -1,10 +1,66 @@
 [
     {
-        "name": "name1",
-        "description": "foo"
-    }
+        "name": "a120 Epic Gaming PC",
+        "description": "Radeon RX 6600, Ryzen 5 5600, 16GB, 1TB, Windows 11",
+        "price": "13999,-",
+        "img": "/img/fire-pc/fire-pc-front.jpg",
+        "img2": "/img/blue-pc/blue-pc-radeon-side.jpg",
+        "img3": "/img/fire-pc/fire-pc-radeon-side.jpg"
+    },
     {
-        "name": "name2",
-        "description": "foo2"
+        "name": "a130 Epic Gaming PC",
+        "description": "Radeon RX 6650XT, Ryzen 5 5600, 16GB, 1TB, Windows 11",
+        "price": "15499,-",
+        "img": "/img/green-pc/green-pc-front.jpg",
+        "img2": "/img/fire-pc/fire-pc-radeon-side.jpg",
+        "img3": "/img/purple-pc/purple-pc-front.jpg"
+    },
+    {
+        "name": "a140 Epic Gaming PC - RTX 3060 Ti Edition",
+        "description": "GeForce RTX 3060 Ti, Ryzen 5 5600X, 16GB, 1TB SSD, Windows 11",
+        "price": "16000,-",
+        "img": "/img/rainbow-pc/rainbow-pc-front.jpg",
+        "img2": "/img/blue-pc/blue-pc-geforce-side.jpg",
+        "img3": "/img/white-purple-pc/white-purple-pc-geforce-side.jpg"
+    },
+    {
+        "name": "a150 Epic Gaming PC",
+        "description": "GeForce RTX 3060Ti, Ryzen 5 7600X, 16GB DDR5, 1TB SSD, Windows 11",
+        "price": "19999,-",
+        "img": "/img/fire-pc/fire-pc-front.jpg",
+        "img2": "/img/blue-pc/blue-pc-geforce-side.jpg",
+        "img3": "/img/yellow-pc/yellow-pc-geforce-side.jpg"
+    },
+    {
+        "name": "a160 Epic Gaming PC",
+        "description": "GeForce RTX 3070, Ryzen 5 7600X, 16GB DDR5, 2TB SSD, Windows 11",
+        "price": "21999,-",
+        "img": "/img/fire-pc/fire-pc-front.jpg",
+        "img2": "/img/pink-pc/pink-pc-geforce-side.jpg",
+        "img3": "/img/yellow-pc/yellow-pc-geforce-side.png"
+    },
+    {
+        "name": "a170 Epic Gaming PC",
+        "description": "GeForce RTX 3070, Ryzen 7 5700X, 16GB, 2TB SSD, Windows 11",
+        "price": "20999,-",
+        "img": "/img/red-pc/red-pc-front.jpg",
+        "img2": "/img/blue-pc/blue-pc-geforce-side.jpg",
+        "img3": "/img/yellow-pc/yellow-pc-geforce-side.jpg"
+    },
+    {
+        "name": "a180 Epic Gaming PC",
+        "description": "Radeon RX 6750XT, Ryzen 7 7700X, 16GB DDR5, 2TB SSD, Windows 11",
+        "price": "21999,-",
+        "img": "/img/red-pc/red-pc-front.jpg",
+        "img2": "/img/blue-pc/blue-pc-radeon-side.jpg",
+        "img3": "/img/fire-pc/fire-pc-radeon-side.jpg"
+    },
+    {
+        "name": "a190 Epic Gaming PC",
+        "description": "Geforce RTX 4070Ti, Ryzen 7 7700, 32GB DDR5, 2TB SSD, Windows 11",
+        "price": "28999,-",
+        "img": "/img/green-pc/green-pc-front.jpg",
+        "img2": "/img/orange-pc/orange-pc-geforce-side.jpg",
+        "img3": "/img/white-purple-pc/white-purple-pc-geforce-side.jpg"
     }
 ]
