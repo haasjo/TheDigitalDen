@@ -1,5 +1,5 @@
 function popUp() {
-    counter = document.getElementById("display").innerHTML.toString()
-    foo = parseInt(counter) + 1
-    document.getElementById("display").innerHTML = foo
+    cart_number = document.getElementById("cart").innerHTML.toString()
+    increase_cart_number = parseInt(cart_number) + 1
+    document.getElementById("cart").innerHTML = increase_cart_number
 }
